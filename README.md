@@ -117,7 +117,7 @@ php artisan key:generate
 ### 8.マイグレーション及びシーディングを実行して下さい。
 
 ```
-php artisan migrate --seed
+php artisan migrate:refresh --seed
 ```
 
 ### 9.ローカルへのアクセス
